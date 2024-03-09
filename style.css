@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    /* background-color: rgb(0, 0, 0); */
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.timer {
+    margin-bottom: 20px;
+}
+
+.timer button {
+    margin: 0 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
