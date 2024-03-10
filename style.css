@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    /* background-color: rgb(0, 0, 0); */
+    background-color: #252626;
 }
 
 .container {
@@ -8,20 +8,54 @@ body {
     margin: 0 auto;
     text-align: center;
 }
-
-.timer {
-    margin-bottom: 20px;
+h1,p,label,h2{
+    color: #C3CEDA;
 }
+/* .timer {
+    margin-bottom: 20px;
+} */
+#timer{ 
+    color:rgb(22, 145, 48); 
+    font-size:50px; 
+    margin:10px auto;
+    border : 5px solid rgb(42, 56, 94);
+    border-radius:50%;
+    width:200px;
+    height:200px;
+    overflow:hidden;
+    position:relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor:default;
+  }
 
-.timer button {
-    margin: 0 5px;
+  #time{
+    margin-top:70px;
+    z-index : 1;
+    position:relative;
+  }
+  #filler{
+    background : #ddffcc;
+    height: 0px;
+    width: 200px;
+    position:absolute;
+    bottom:0;
+  }
+#buttons {
+    padding:5px; 
+    margin:10px auto;
 }
 
 ul {
     list-style-type: none;
     padding: 0;
+   
 }
 
 li {
     margin-bottom: 5px;
+    color: #C3CEDA;
+    /* text-align: center; */
 }

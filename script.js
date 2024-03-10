@@ -34,11 +34,14 @@ document.addEventListener('DOMContentLoaded', function() {
     startButton.addEventListener('click', function() {
         startTimer();
         startButton.disabled = true;
+        pauseButton.disabled=false;
     });
 
-    // pauseButton.addEventListener('click',function(){
-
-    // })
+    pauseButton.addEventListener('click',function(){
+        clearInterval(timer);
+        startButton.disabled = false;
+        pauseButton.disabled=true;
+    })
 
     resetButton.addEventListener('click', function() {
         clearInterval(timer);
